@@ -1,0 +1,139 @@
+
+.deck .card 
+{
+    border: solid 1px #aaa;
+    border-radius: 9px;
+    width: 95px;
+    height: 150px;
+    float:left;
+    background-color: rgb(95, 77, 77);
+    padding: 3px 3px 3px 3px;
+    margin: 5px;
+    transition: 200ms transform ease-in-out;
+    transform-style: preserve-3d;
+    user-select: none;
+    position: absolute;
+    top: 15%;
+    left: 44%;
+    
+    
+}
+.deckP .card
+{
+    border: solid 1px #aaa;
+    border-radius: 9px;
+    width: 95px;
+    height: 150px;
+    float:left;
+    background-color: rgb(95, 77, 77);
+    padding: 3px 3px 3px 3px;
+    margin: 5px;
+    transition: 200ms transform ease-in-out;
+    transform-style: preserve-3d;
+    user-select: none;
+    display: flex;
+}
+
+.deckP{
+    position: absolute;
+    top: 70%;
+    left: 32%;
+    right: 16%;
+    
+}
+
+.card:hover{
+    transform: scale(1.025);
+}
+
+.card .value{
+    font-size:30pt;
+    font-family: sans-serif;
+    color: aliceblue;
+    position:absolute;
+    top: 100px;
+    left: 3px ;
+}
+
+.card .dmg{
+    font-size:30pt;
+    font-family: sans-serif;
+    color: aliceblue;
+    position: absolute;
+    top: 100px;
+    left: 55px;
+}
+
+.card .suit
+{
+	background-image: url('https://lh3.googleusercontent.com/JwZ-0OxbZmLOK0_SuKEdKo9_670pUDtTgKGXaC8HnqhybiZriRqq3yXaa1OXzaZZfWsvC-b9RZ6MmnN9f1rkhVB-Dnyn7gg1z5PLTaZDOIBLgQMLNW4vE6MmVLryZQw5t3tW2Ph5g8s=w2400');
+    max-width: 200%;
+    max-height: 200%;
+    object-fit: contain;
+    height: 100px;
+	width: 90px;
+    position: relative;
+    left: 2px;
+}
+
+.card .diamonds
+{
+    
+	background-position-y: 100px;
+    background-position-x: 90px;
+    
+}
+
+.card .hearts
+{
+	background-position-x: 182px;
+    background-position-y: 100px;
+}
+
+.card .clubs
+{
+	background-position-x:182px;
+	background-position-y:-1px;
+}
+
+.card .spades
+{
+    background-position-x:93px;
+	background-position-y:-1px;
+}
+
+.card .buttonP{
+    position: absolute;
+    top: -25px;
+    left: 20px;
+}
+
+.card .button{
+    position: absolute;
+    top: 160px;
+    left: 25px;
+}
+
+.btn_robar
+{
+    position:absolute;
+    left: 40%;
+    top: 20%;
+    border: solid 1px #aaa;
+    border-radius: 9px;
+    font-size:20pt;
+    user-select: none;
+}
+
+.btn_claim
+{
+    position:absolute;
+    right: 46%;
+    top: 20%;
+    border: solid 1px #aaa;
+    border-radius: 9px;
+    font-size:20pt;
+    user-select: none;
+}
+
+/*👹👽👾👻*/
